@@ -8,7 +8,7 @@ construido con AWS Glue Studio, Step Functions y Athena.
 ### step_0_budget.png — Budget AWS
 Budget `spark-glue-workshop-budget` ($2.00, Healthy) configurado en AWS Budgets.
 
-![Budget](evidence/step_0_budget.png)
+![Budget](evidence/step_0_budget.jpeg)
 
 ### step_2_s3_bucket.png — Bucket S3 estructurado
 Bucket `spark-glue-workshop-datalake-af-01` con las 5 carpetas requeridas:
@@ -18,7 +18,7 @@ Bucket `spark-glue-workshop-datalake-af-01` con las 5 carpetas requeridas:
 - `athena-results/` — Resultados de consultas Athena
 - `temp/` — Archivos temporales
 
-![S3 Bucket](evidence/step_2_s3_bucket.png)
+![S3 Bucket](evidence/step_2_s3_bucket.jpeg)
 
 ### step_5_glue_silver_succeeded.png — Job Bronze→Silver completado
 Job `spark-glue-workshop-bronze-to-silver` ejecutado en Glue Studio con estado **Succeeded**.
